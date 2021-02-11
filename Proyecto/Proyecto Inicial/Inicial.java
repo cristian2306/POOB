@@ -37,7 +37,7 @@ import javax.swing.JOptionPane;
      * Constructor for objects of class Store
      */
     public Mission(int length, int width)
-    {
+     {
        this.length = length;
        this.width = width;
        
@@ -59,13 +59,10 @@ import javax.swing.JOptionPane;
        
        fillArrays();
        
-       //
-       for(int i = 1; i<=length;i++){
-           store(new int[width]);
-        }
-
        
-    }
+
+
+     }
     
     
     /***
@@ -94,25 +91,12 @@ import javax.swing.JOptionPane;
      * of boxes from the user values
      */
     public void store(int numbers[]){
-     //Alert Messages (Third Cicle = Expand the program)   
-        if(numbers.length > width){
-            JOptionPane.showMessageDialog(null, "Cuidado", "Te estás pasando de la cantidad de números permitidos por fila", JOptionPane.WARNING_MESSAGE);
-        }
-        else if(numbers.length < width){
-            JOptionPane.showMessageDialog(null, "Cuidado", "No tienes la cantidad de números permitidos por fila", JOptionPane.WARNING_MESSAGE);
-
-        }
-        //Iteration for fill the stockValues array
-        else{
-        for(int i = 0; i< length;i++){
-            for(int j = 0;j<width;j++){
-                
-            }
-        }      
-       }
+        int newLength = numbers[0];
+        int newWidth = numbers[1];
+        store(length,width);       
     }
-    
-    
+        
+   
     /***
      * function created to add a box
      * in a given row and column
@@ -126,8 +110,6 @@ import javax.swing.JOptionPane;
         else{
             stockValues[newRow][newColumn] += 1;
         }
-        
-        
     }
     
     
@@ -152,12 +134,64 @@ import javax.swing.JOptionPane;
     public void steal(int row, int column){
         row -= 1;
         column -= 1;
-        stockValues[row][column] -= 1;
+        if(row <0 || row > length || column < 0 || column > width){
+            JOptionPane.showMessageDialog(null, "Cuidado", "Posicion no válida para robar una caja", JOptionPane.WARNING_MESSAGE);
+        }
+        else{
+        robberyValues[row][column] -= 1;
         boxStole += 1;
+        }  
     }
     
     
-    public void Return(){
+    public void steal(int[] crate){
+        int newLength = crate[0] - 1;
+        int newWidth = crate[1] - 1;
+        
         
     }
+    
+    
+    /***
+     * Function created to make visible all the rectangles placed both
+     * in the stock arrays and in the robbery arrays
+     */
+    public void makeVisible(){
+        for(int i = 0; i < length;i++){
+            for(int j = 0;j < width;j++){
+                //Make visible the arrays of stock
+                stockSide[i][j].makeVisible();
+                stockFront[i][j].makeVisible();
+                stockUp[i][j].makeVisible();
+                
+                //Make visible the arrays of robbery
+                robberySide[i][j].makeVisible();
+                robberyFront[i][j].makeVisible();
+                robberyUp[i][j].makeVisible();
+            }
+        }
+    }
+    
+    
+    /***
+     * Function created to make invisible all the rectangles placed both
+     * in the stock arrays and in the robbery arrays
+     */
+    public void makeInvisible(){
+        for(int i = 0; i < length;i++){
+            for(int j = 0;j < width;j++){
+                //Make invisible the arrays of stock
+                stockSide[i][j].makeInvisible();
+                stockFront[i][j].makeInvisible();
+                stockUp[i][j].makeInvisible();
+                
+                //Make invisible the arrays of robbery
+                robberySide[i][j].makeInvisible();
+                robberyFront[i][j].makeInvisible();
+                robberyUp[i][j].makeInvisible();
+            }
+        }
+    }
 }
+ 
+
