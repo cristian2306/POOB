@@ -250,4 +250,16 @@ import java.util.Arrays;
           boxStole -= 1;
           fillSpace(tuples[0],tuples[1]);
         }
+         
+         
+         /***
+         * function created to organize 
+         * a certain box in another position. 
+         * The position of going and coming are given by the user
+         */
+        public void arrange(int[] from, int[] to){
+            //add or subtract to position respectly
+            robberyValues[from[0]][from[1]] -=1;
+            robberyValues[to[0]][to[1]] +=1;
+        }
     } 
