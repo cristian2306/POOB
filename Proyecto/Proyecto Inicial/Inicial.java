@@ -39,6 +39,9 @@ import javax.swing.JOptionPane;
     
      /**
      * Constructor for objects of class Store
+     *
+     * @param length --> the length of the array
+     * @param width  --> the width of the array
      */
     public Mission(int length, int width){
        this.length = length;
