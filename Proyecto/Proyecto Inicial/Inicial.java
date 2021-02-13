@@ -42,6 +42,7 @@ import javax.swing.JOptionPane;
      *
      * @param length --> the length of the array
      * @param width  --> the width of the array
+     *
      */
     public Mission(int length, int width){
        this.length = length;
@@ -95,6 +96,9 @@ import javax.swing.JOptionPane;
     /***
      * function created to fill the matrix
      * of boxes from the user values
+     *
+     * @param int numbers[]  --> array of numbers, contains the row and the column
+     *
      */
     public void store(int numbers[]){
         int newLength = numbers[0];
@@ -106,6 +110,10 @@ import javax.swing.JOptionPane;
     /***
      * function created to add a box
      * in a given row and column
+     *
+     * @param row  --> the number of the row
+     * @param column --> the number of the column
+     *
      */
     public void store(int row, int column){
         //read the new row and column values, since it is taken into account that the user does not start at 0 but at 1
@@ -184,6 +192,10 @@ import javax.swing.JOptionPane;
      * Function created to steal a box 
      * from the position given by the user. 
      * Check if there are boxes to steal in that position
+     *
+     * @param row  --> the number of the row
+     * @param column --> the number of the column
+     *
      */
     public void steal(int row, int column){
         //Modify the variable row and column. The user counts as one the initial position of the array.
@@ -201,7 +213,13 @@ import javax.swing.JOptionPane;
         }  
     }
     
-    
+    /***
+     * Function created to steal a box with respect to the row and column indicated by the user,
+     * which are contained in the arrangement
+     *
+     * @param int[] crate --> the array containing the row and column
+     *
+     */
     public void steal(int[] crate){
         int newLength = crate[0] - 1;
         int newWidth = crate[1] - 1;
@@ -305,6 +323,9 @@ import javax.swing.JOptionPane;
     /**
      * Function created to calculate the maximum 
      * value of an array of numbers
+     *
+     * @param int[] vector --> the array contains numbers
+     *
      */
     private int max(int[] vector){
         int max = vector[0];
@@ -320,6 +341,9 @@ import javax.swing.JOptionPane;
     /**
      * Function created to calculate the maximum value of a column, 
      * this is for when you have a matrix
+     *
+     * @param int[][] matriz --> the matrix contains numbers 
+     *
     */
     private int[] max(int[][] matriz){
         int max;
@@ -341,6 +365,10 @@ import javax.swing.JOptionPane;
   /***
      * Function created to leave a box in the required position, 
      * and in that part, add a box to the matrix of numbers
+     *
+     * @param int length --> the integer value of length
+     * @param int width --> the integer value of width
+     *
      */
     private void fillSpace(int length, int width){
         if(robberyValues[length][width] == 0){
@@ -371,6 +399,10 @@ import javax.swing.JOptionPane;
      * function created to organize 
      * a certain box in another position. 
      * The position of going and coming are given by the user
+     *
+     * @param int[] from --> array with initial positions
+     * @param int[] to --> array with end positions
+     *
      */
     public void arrange(int[] from, int[] to){
         //add or subtract to position respectly
