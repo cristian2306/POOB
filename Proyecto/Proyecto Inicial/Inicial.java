@@ -410,4 +410,35 @@ import javax.swing.JOptionPane;
         robberyValues[to[0]][to[1]] +=1;
     }
     
+  /***
+     *                                          ¿Cuáles fueron los mini-ciclos definidos? Justifíquenlos
+     *              primer ciclo : Constructores(Mission(int length, int width), fillArrays())
+     *              Segundo Ciclo: Entradas de cajas a la bodega(store(int numbers[]), store(int row, int column))
+     *              Tercer Ciclo: Empezando el robo (copy(), steal(int row, int column), steal(int[] crate))
+     *              Cuarto Ciclo: Visibilidad del simulador( makeVisible(), makeInvisible(), stockVisible(), robberyVisible(), max(int[] vector), max(int[][] matriz))
+     *              Quinto Ciclo: Arreglar las cajas(fillSpace(int length, int width), Return(), arrange(int[] from, int[] to))
+     *              Sexto Ciclo: Mensajes(Se entiende como un ciclo extensible para que el programa sea responsive con el usuario)
+     * 
+     *                                          ¿Cuál es el estado actual del laboratorio en términos de mini-ciclos? ¿por qué?
+     *              El primer, segundo y tercer ciclo están completos. El cuarto ciclo tiene muchos inconvenientes, puesto que la impresión de las cámaras                     
+     *              no da el resultado esperado. El quinto ciclo no se termino, puesto que faltaron 3 funciones. Sexto ciclo lo cogimos 
+     *              como opcional, para que el usuario tuviera más interacción con el juego.
+     *
+     *                                          ¿Cuál fue el tiempo total invertido por cada uno de ustedes? (Horas/Hombre) 
+     *                                                              Diego Alejandro González : 15 Horas
+     *                                                              Cristian Andrés Castellanos: 15 Horas
+     *
+     *                                          ¿Cuál consideran fue el mayor logro? ¿Por qué? 
+     *              El mayor logro fue poder trabajar y aprender más a fondo sobre los ArrayLists, pues son una herramienta demasiado útil en estos casos
+     *
+     *                                          ¿Cuál consideran que fue el mayor problema técnico? ¿Qué hicieron para resolverlo?
+     *              El mayor problema técnico es en la impresión de las vistas de las cámaras de seguridad, tanto de la bodega como del plan de robo. La solución que teniamos
+     *              en mente era crear en un ArrayList todos los rectángulos que necesitaramos meter arriba.
+     *
+     *                                          ¿Qué hicieron bien como equipo? ¿Qué se comprometen a hacer para mejorar los resultados? 
+     *              Como equipo nos apoyamos en todos los problemas técnicos, teniendo horarios específicos para trabajarle fuertemente a todo lo que conllevaba hacer este proyecto inicial                                        
+     *
+     *                                          Considerando las prácticas XP del laboratorio. ¿cuál fue la más útil? ¿por qué? 
+     *              Trabajo en parejas, pues nos pudimos comunicar de manera fluida, teniamos el mismo código, por lo que teníamos ambos el mismo conocimiento.
+     */
 }
