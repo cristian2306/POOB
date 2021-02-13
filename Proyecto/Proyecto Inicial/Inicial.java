@@ -69,7 +69,7 @@ import javax.swing.JOptionPane;
      }
     
     
-    /***
+    /**
      * function created to fill the matrices with rectangles, 
      * this to now make each of the rectangles visible
      */
@@ -93,7 +93,7 @@ import javax.swing.JOptionPane;
     }
     
     
-    /***
+    /**
      * function created to fill the matrix
      * of boxes from the user values
      *
@@ -107,7 +107,7 @@ import javax.swing.JOptionPane;
     }
         
    
-    /***
+    /**
      * function created to add a box
      * in a given row and column
      *
@@ -175,7 +175,7 @@ import javax.swing.JOptionPane;
     }
     
   
-    /***
+    /**
      * function created to copy into the robbery array,
      * the array of stock values
      */
@@ -188,7 +188,7 @@ import javax.swing.JOptionPane;
     }
     
   
-    /***
+    /**
      * Function created to steal a box 
      * from the position given by the user. 
      * Check if there are boxes to steal in that position
@@ -213,7 +213,7 @@ import javax.swing.JOptionPane;
         }  
     }
     
-    /***
+    /**
      * Function created to steal a box with respect to the row and column indicated by the user,
      * which are contained in the arrangement
      *
@@ -227,7 +227,7 @@ import javax.swing.JOptionPane;
     }
     
     
-    /***
+    /**
      * Function created to make visible all the rectangles placed both
      * in the stock arrays and in the robbery arrays
      */
@@ -237,7 +237,7 @@ import javax.swing.JOptionPane;
     }
     
     
-    /***
+    /**
      * Function created to make invisible all the rectangles placed both
      * in the stock arrays and in the robbery arrays
      */
@@ -265,7 +265,7 @@ import javax.swing.JOptionPane;
         }
   
   
-    /***
+    /**
     * Function created to make visible all the views 
     * of the security cameras of the stock
     */
@@ -362,7 +362,7 @@ import javax.swing.JOptionPane;
     }
   
   
-  /***
+  /**
      * Function created to leave a box in the required position, 
      * and in that part, add a box to the matrix of numbers
      *
@@ -378,7 +378,7 @@ import javax.swing.JOptionPane;
     }
         
         
-    /***
+    /**
      * Function created to return the 
      * last box stolen in the robbery plan.
      */
@@ -395,7 +395,7 @@ import javax.swing.JOptionPane;
     }
      
      
-    /***
+    /**
      * function created to organize 
      * a certain box in another position. 
      * The position of going and coming are given by the user
