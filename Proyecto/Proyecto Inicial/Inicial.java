@@ -156,7 +156,7 @@ import javax.swing.JOptionPane;
                     robberyFront.get(height-1)[i].moveVertical((10)+(height+1)*10);
                 }
                 for(int i=0;i<height-1;i++){
-                    for(j=0;j<length;j++){
+                    for(int j=0;j<length;j++){
                      
                      //vertical movement for stock and robbery side views
                     stockSide.get(i)[j].moveVertical(10);
