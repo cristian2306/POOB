@@ -97,7 +97,7 @@ import javax.swing.JOptionPane;
      * function created to fill the matrix
      * of boxes from the user values
      *
-     * @param int numbers[]  --> array of numbers, contains the row and the column
+     * @param numbers[]  --> array of numbers, contains the row and the column
      *
      */
     public void store(int numbers[]){
@@ -217,7 +217,7 @@ import javax.swing.JOptionPane;
      * Function created to steal a box with respect to the row and column indicated by the user,
      * which are contained in the arrangement
      *
-     * @param int[] crate --> the array containing the row and column
+     * @param integer[] crate --> the array containing the row and column
      *
      */
     public void steal(int[] crate){
@@ -324,7 +324,7 @@ import javax.swing.JOptionPane;
      * Function created to calculate the maximum 
      * value of an array of numbers
      *
-     * @param int[] vector --> the array contains numbers
+     * @param integer[] vector --> the array contains numbers
      *
      */
     private int max(int[] vector){
@@ -342,7 +342,7 @@ import javax.swing.JOptionPane;
      * Function created to calculate the maximum value of a column, 
      * this is for when you have a matrix
      *
-     * @param int[][] matriz --> the matrix contains numbers 
+     * @param integer[][] matriz --> the matrix contains numbers 
      *
     */
     private int[] max(int[][] matriz){
@@ -366,8 +366,8 @@ import javax.swing.JOptionPane;
      * Function created to leave a box in the required position, 
      * and in that part, add a box to the matrix of numbers
      *
-     * @param int length --> the integer value of length
-     * @param int width --> the integer value of width
+     * @param length --> the integer value of length
+     * @param width --> the integer value of width
      *
      */
     private void fillSpace(int length, int width){
@@ -400,8 +400,8 @@ import javax.swing.JOptionPane;
      * a certain box in another position. 
      * The position of going and coming are given by the user
      *
-     * @param int[] from --> array with initial positions
-     * @param int[] to --> array with end positions
+     * @param integer[] from --> array with initial positions
+     * @param integer[] to --> array with end positions
      *
      */
     public void arrange(int[] from, int[] to){
