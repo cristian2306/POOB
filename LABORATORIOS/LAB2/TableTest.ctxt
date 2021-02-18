@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=TableTest
+comment0.text=\r\n\ @author\ \ \ ECI\r\n\ @version\ 2021-1\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ shouldPass()
+comment3.params=
+comment3.target=void\ shouldFail()
+comment4.params=
+comment4.target=void\ shouldErr()
+comment5.params=
+comment5.target=void\ shouldCreateAnEmptyTables()
+comment6.params=
+comment6.target=void\ shouldCreateTables()
+comment7.params=
+comment7.target=void\ shouldNotInsertBadTuples()
+comment8.params=
+comment8.target=void\ shouldRepresentTableAsString()
+comment9.params=
+comment9.target=void\ tearDown()
+comment9.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+numComments=10
