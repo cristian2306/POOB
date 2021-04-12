@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=UpStack
+comment0.text=\r\n\ Pila\ de\ cajas\ desde\ una\ vista\ aerea\r\n\ \r\n\ @author\ Cristian\ Castellanos-\ Diego\ Gonzalez\ \r\n\ @version\ 29/03/2021\r\n
+comment1.params=x\ y
+comment1.target=UpStack(int,\ int)
+comment1.text=\r\n\ Crea\ una\ pila\ de\ cajas\ visto\ desde\ el\ aire\ en\ la\ posicion\ indicada\r\n\ @param\ x-\ Posicion\ x\ de\ la\ pila\r\n\ @param\ y-\ Posicion\ y\ de\ la\ pila\r\n
+comment2.params=x\ y\ crates
+comment2.target=UpStack(int,\ int,\ int)
+comment2.text=\r\n\ Crea\ una\ pila\ de\ cajas\ con\ un\ numero\ de\ cajas\ en\ la\ posicion\ indicada\r\n\ @param\ x-\ Posicion\ x\ de\ la\ pila\r\n\ @param\ y-\ Posicion\ y\ de\ la\ pila\r\n
+comment3.params=type
+comment3.target=void\ addCrate(java.lang.String)
+comment4.params=type
+comment4.target=boolean\ canStore(java.lang.String)
+comment5.params=locate
+comment5.target=void\ setLocate(int[])
+comment5.text=\r\n\ Asigna\ a\ la\ pila\ una\ localizacion\ dentro\ de\ la\ vista\r\n
+numComments=6

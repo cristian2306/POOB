@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Copiadora
+comment0.text=\r\n\ Caja\ que\ revisa\ la\ anterior,\ y\ en\ caso\ que\ la\ anterior\ sea\ segura,\ entonces\ se\ coloca\ una\ segura\ \r\n\ y\ despu\u00E9s\ se\ coloca\ la\ caja\ copiadora.\ En\ caso\ que\ la\ caja\ no\ sea\ segura,\ entonces\ se\ coloca\ una\r\n\ normal\ y\ desp\u00FAes\ se\ pne\ la\ copiadora.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Copiadora()
+comment2.params=locate\ position\ stack
+comment2.target=boolean\ store(int[],\ int[],\ mission.StackCrates)
+numComments=3

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=MissionTest
+comment0.text=\r\n\ The\ test\ class\ MissionTest.\r\n\r\n\ @author\ \ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ deber\u00EDaInsertarCajaNormal()
+comment3.params=
+comment3.target=void\ deberiaInsertarCajaDelicada()
+comment4.params=
+comment4.target=void\ deberiaInsertarCajaRebelde()
+comment5.params=
+comment5.target=void\ deberiaInsertarCajaSegura()
+comment6.params=
+comment6.target=void\ deberiaInsertarCajaFrost()
+comment7.params=
+comment7.target=void\ deberiaInsertarCajaHeavy()
+comment8.params=
+comment8.target=void\ deberiaInsertarCajaCopiadora()
+comment9.params=
+comment9.target=void\ tearDown()
+comment9.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+numComments=10
