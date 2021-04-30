@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SensorVida
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ SensorVida\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=automata\ fila\ columna
+comment1.target=SensorVida(AutomataCelular,\ int,\ int)
+comment2.params=
+comment2.target=java.awt.Color\ getColor()
+comment3.params=color
+comment3.target=void\ setColor(java.awt.Color)
+comment4.params=
+comment4.target=int\ forma()
+comment5.params=automata
+comment5.target=void\ checkCount(AutomataCelular)
+comment6.params=
+comment6.target=void\ decida()
+numComments=7

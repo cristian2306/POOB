@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=CelulaEspecial
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ CelulaEspecial\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=ac\ fila\ columna
+comment1.target=CelulaEspecial(AutomataCelular,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ CelulaEspecial\r\n
+comment2.params=
+comment2.target=posibles()
+comment2.text=\r\n\ Retorna\ los\ posibles\ lugares\ en\ donde\ la\ celula\ especial\ puede\ crear\ una\ celula\ normal\ y\ define\ si\ la\ celula\ eta\ acompa\u00F1ada\ o\ no\r\n\ @return\ -\ posible\ -\ Arreglo\ que\ contiene\ las\ posible\ posiciones\ \r\n
+comment3.params=
+comment3.target=void\ decida()
+numComments=4

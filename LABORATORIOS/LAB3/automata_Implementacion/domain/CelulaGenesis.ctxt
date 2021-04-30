@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CelulaGenesis
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ CelulaGenesis\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=automata\ fila\ columna
+comment1.target=CelulaGenesis(AutomataCelular,\ int,\ int)
+comment1.text=\r\n\ Constructor\ de\ la\ nueva\ c\u00E9lula\ (C\u00E9lula\ G\u00E9nesis)\r\n\ @param\ automata\r\n\ @param\ fila\r\n\ @param\ columna\r\n
+comment2.params=
+comment2.target=boolean\ DemeVecinos()
+comment3.params=
+comment3.target=void\ CrearHijos()
+comment4.params=
+comment4.target=void\ decida()
+numComments=5
